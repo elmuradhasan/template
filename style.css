@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: "Alkatra", serif;
+    width: 100%;
+    height: 100vh;
+
+}
+header {
+    width: 100%;
+    height: 60px; /* Header-in hündürlüyünü 60px etdik */
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* .logo a:hover {
+    background-color: #ccc;
+} */
+
+.header_links_div {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; /* Linklərin hündürlüyü header qədər olsun */
+}
+
+.header_links_div a {
+    color: #000;
+    height: 100%; /* Linklərin hündürlüyü header qədər olsun */
+    display: flex;
+    align-items: center;
+    padding: 0 15px; /* Daxili boşluq əlavə etdik */
+}
+
+.header_links_div a:hover {
+    background-color: #ccc;
+}
+.logo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+  color: #000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.logo a:hover{
+  background-color: #ccc;
+}
+.header_links_div i{
+    margin-right: 5px;
+}
+
+/* section 1 */
+
+.main_div{
+    background-image: url("/images/th.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 60px;
+    height: calc(100vh - 60px); /* Header-in hündürlüyünü çıxırıq */
+}
+.main_div_text {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main_div_text {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.main_div_text h2{
+ font-size: 50px;
+}
+
+.main_div_text button{
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+   }
+   
+   .main_div_text button{
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    transition: 0.5s;
+   }
+   
+    .main_div_text button:hover{
+     background-color: #000;
+     color: #fff;
+     cursor: pointer;
+    }
+    .social_media_div a{
+        color: #ccc;
+        font-size: 20px;
+        margin-right: 10px;
+        transition: 0.5s;
+    }
+
+    .social_media_div a:hover{
+        color: #fff;
+    }
