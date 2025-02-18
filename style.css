@@ -133,3 +133,19 @@ header {
     .social_media_div a:hover{
         color: #fff;
     }
+
+    .about_company{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 0 60px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .about_company_div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
